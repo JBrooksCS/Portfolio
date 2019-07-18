@@ -9,6 +9,9 @@ import CSHARP from "./images/Csharp.svg"
 import DOTNET from "./images/dotnet.svg"
 import HTML5 from "./images/html-5.svg"
 import CSS3 from "./images/css-3.svg"
+import AboutMe from "./components/AboutMe"
+import Projects from "./components/Projects"
+
 
 class Home extends Component {
     render() {
@@ -17,16 +20,18 @@ class Home extends Component {
             <>
             
                 <TopBar />
+                <AboutMe />
+                <Projects />
                 
 
-                <div className="techImages">
+                {/* <div className="techImages">
                     <img src={JS} alt=""/>
                     <img src={RCT} alt=""/>
                     <img src={CSHARP} alt=""/>
                     <img src={DOTNET} alt=""/>
                     <img src={HTML5} alt=""/>
                     <img src={CSS3} alt=""/>
-                </div>
+                </div> */}
 
                 <FirstBlock />
 

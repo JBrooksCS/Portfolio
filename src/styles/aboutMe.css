@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker&display=swap');
+
+
+.aboutMe {
+    background-color: #127AB3;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+
+.meHeader{
+    font-family: 'Permanent Marker';
+    font-size: 2em;
+    color: #FFFA33;
+}
+
+.bio {
+    width: 80%;
+}
+
+.resume {
+    display: flex;
+    justify-content: flex-end;
+    /* background-image: url("../images/resume.png") */
+}
+
+.resumeIcon {
+    max-width: 50%;
+    height: auto;
+}

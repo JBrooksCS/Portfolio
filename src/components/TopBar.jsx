@@ -9,12 +9,12 @@ class TopBar extends Component {
     render() {
         return (
             <div className="TopBar">
-                    <img src={Me_Eclipse} className="profile_photo" alt="" />
+
                 <div className="header_div">
                     <Name />
                     <Title />
 
-                
+
                 </div>
             </div>
         );
