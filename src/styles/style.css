@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,27 +10,51 @@
 }
 
 .TopBar{
+    color: white;
     background-color: rgb(0, 0, 0);
-    padding:  4em 2em 0 0;
-    color: rgb(255, 174, 0);
+    padding:  0em 2em 0 0;
     display: flex;
 }
 .name{
-    text-align: center
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Lato';
+    color: rgb(255, 174, 0);
+
+
 }
 .title{
+    margin: 1em 0 1em 1em;
+    font-family: 'Permanent Marker';
 
 }
 .profile_photo{
-    margin-left: 1em;
-    max-width: 200px;
-    border-radius: 50%;
+    max-width: 180px;
+
+
 }
 .header_div{
     justify-content: column;
     white-space: nowrap;
     font-size: 2em;
 }
+.technologies{
+    background-color: rgb(255, 174, 0);
+    margin-top: 20em;
+    height: 3em;
+}
+.techImages{
+    text-align: center;
+    background-color: rgb(197, 234, 255);
+    display: flex-inline;
+}
+.techImages img{
+    height: 5em;
+    padding: 3%;
+    margin-top: 13em;
+
+}
+
 .first_block{
     margin-top: 3000px;
 }
