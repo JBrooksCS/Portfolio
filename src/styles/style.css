@@ -50,11 +50,11 @@ padding-bottom: 1em;
 }
 .techImages{
     text-align: center;
-    background-color: rgb(197, 234, 255);
+    background-color: rgb(106, 168, 219);
     display: flex-inline;
 }
 .techImages img{
-    height: 5em;
+    height: 3em;
     padding: 3%;
     margin-top: 13em;
 
@@ -62,4 +62,114 @@ padding-bottom: 1em;
 
 .first_block{
     margin-top: 3000px;
+}
+/* ********************************** ABOUT ME */
+
+.aboutMe {
+    background-color: #127AB3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+    max-height: 3em;
+}
+.meHeader{
+    font-family: 'Permanent Marker';
+    font-size: 2em;
+    color: #FFFA33;
+}
+.icon_row{
+    display: inline-flex;
+    text-align: center;
+    /* padding-left: 10em; */
+    /* max-width: 70%; */
+}
+.github_icon{
+    padding-left: 2em;
+    max-height: 90%;
+    /* height: auto; */
+}
+
+.linkedin_icon{
+    /* padding-top: .7em; */
+    padding-left: 10em;
+    max-height: 90%;
+    /* height: auto; */
+}
+
+.bio {
+    width: 90%;
+}
+
+.resumeIcon {
+    padding-left: 10em;
+    max-height: 90%;
+    width: auto;
+}
+/************************************ Projects */
+
+@font-face {
+    font-family: "Reavers";
+    src: url("Reavers.ttf")
+  }
+
+.projects{
+    background-color: black;
+    
+}
+.projectsHeader{
+    font-family: 'Permanent Marker';
+    font-size: 2em;
+    width: 95%;
+    background-color: black;
+    color: #FFFA33;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+hr {
+
+    height: 1px;
+    background-color: #FFFA33;
+}
+.FF_content{
+    display: inline-flex;
+    color: white;
+    font-family: "Lato";
+}
+.FF_icon_and_header{
+    /* justify-content: center; */
+    padding-left: 1em;
+}
+.arrowDiv{
+    display: inline-flex;
+}
+.arrow{
+    max-height: .8em;
+    padding-left: 1em;
+}
+.playMe{
+    display: inline-flex;
+    padding-left: .8em;
+    color: #FFFA33;
+
+}
+.faceflex{
+    font-family: 'Reavers';
+    color: rgb(106, 168, 219);
+    padding-left: 2.3em;
+    font-size: 1.5em;
+}
+.FF_icon{
+    width: 90%;
+}
+.techList{
+    list-style-type: none;
+    padding: 2em 0 0 1em;
+}
+li{
+    color: rgb(106, 168, 219);
+    padding-top: .5em;
 }

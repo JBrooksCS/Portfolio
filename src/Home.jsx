@@ -20,18 +20,20 @@ class Home extends Component {
             <>
             
                 <TopBar />
+                <hr/>
+
                 <AboutMe />
                 <Projects />
                 
 
-                {/* <div className="techImages">
+                <div className="techImages">
                     <img src={JS} alt=""/>
                     <img src={RCT} alt=""/>
                     <img src={CSHARP} alt=""/>
                     <img src={DOTNET} alt=""/>
                     <img src={HTML5} alt=""/>
                     <img src={CSS3} alt=""/>
-                </div> */}
+                </div>
 
                 <FirstBlock />
 
