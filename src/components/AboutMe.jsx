@@ -9,11 +9,12 @@ class AboutMe extends Component {
         return (<>
 
             <div className="aboutMe">
-
+            <div>
                 <div className="bio">
                     <div className="meHeader">
                         <h1>Me</h1>
                     </div>
+                </div>
                 </div>
                 <div className="resume">
                     <img className="resumeIcon" src={resume_icon} alt="image_of_resume" />
